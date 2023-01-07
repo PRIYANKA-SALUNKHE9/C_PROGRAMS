@@ -1,7 +1,7 @@
 ////////////////////////////////////////////////////////////////////////////
 //
-// Function Name :  Display()
-// Description   :  Print 5 to 1 numbers on screen
+//Function Name  :  Accept()
+// Description   :  Accept one number from user and print that number of * on screen
 // Input         :  Integer
 // Output        :  Integer
 // Author        :  Priyanka Salunkhe
@@ -12,21 +12,23 @@
 
 #include<stdio.h>
 
-void Display()
+void Accept(int iNo)
 {
-
-	int i=5;
+	int iCnt=0;
 	
-	for(i=5;i>=1;--i)
+	for(iCnt=0;iCnt<iNo;iCnt++)
 	{
-		printf("%d\n",i);
+		printf("*",iCnt);
 	}
 }
-
 int main()
 {
+	int iValue=0;
 	
-	Display();
+	printf("Enter number\n");
+	scanf("%d",&iValue);
 	
+	Accept(iValue);
 	return 0;
 }
+
