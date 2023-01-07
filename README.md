@@ -4,7 +4,7 @@
 
 In This Repository I Solve Various Types Of Problem Statements As :
 
-1.Problems On Numbers
+-Problems On Numbers
 2.Problems On Digits
 3.Problems On Pattern Printing
 4.Problems On N Numbers
